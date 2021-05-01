@@ -39,7 +39,7 @@ class Box
   }
   long long CalculateVolume()
   {
-      return l*b*h;
+      return (long long)l*b*h;
   }
   friend bool operator < (Box& A,Box& B)
   {
